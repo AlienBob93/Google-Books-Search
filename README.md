@@ -1,6 +1,6 @@
 # Getting Started
 
-Fullstack coding challenge submission.
+Fullstack coding challenge submission for an interview.
 
 This application allows an user to search through Google Books through a custom API route.\
 See the design Document for further details.
