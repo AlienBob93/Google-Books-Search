@@ -27,6 +27,10 @@ const columns = new pgp.helpers.ColumnSet([
 ], { table: tableName });
 
 // Make db requests async
+/* 
+    Check https://blog.sqreen.com/preventing-sql-injection-in-node-js-and-other-vulnerabilities/ 
+    to protect against SQL String injection 
+*/
 /* DEBUG */
 const getAll = (request, response) => {
     pool.query(`SELECT * FROM ${tableName}`, (error, results) => {
